@@ -1,0 +1,29 @@
+<resources>
+
+    <!--&lt;!&ndash;旧api的主题&ndash;&gt;-->
+    <!--<style name="AppBaseTheme" parent="android:Theme.Light">-->
+        <!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+    <!--</style>-->
+
+    <!--<style name="ActionBar"-->
+           <!--parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@color/actionbar_color</item>-->
+    <!--</style>-->
+
+
+
+    <!--新api的主题  放入API14中-->
+    <style name="AppTheme"
+           parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_color</item>
+    </style>
+
+</resources>
